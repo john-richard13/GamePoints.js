@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Perguntas</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(135deg, #4B79A1, #283E51);
+            color: white;
+            display: flex;
+            height: 100vh;
+            margin: 0;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+        }
+
+        button {
+            padding: 12px 25px;
+            background-color: #ffffff;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #dcdcdc;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Jogo de Perguntas</h1>
+    <p>Teste seus conhecimentos respondendo a 5 questões!</p>
+
+    <button onclick="iniciarJogo()">Começar</button>
+
+    <script src="Points.js"></script>
+</body>
+</html>
